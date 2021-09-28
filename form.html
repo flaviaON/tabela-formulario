@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<h1>Informações Pessoais</h1>
+
+<fieldset>
+    <legend> <h3>Cadastro do Cliente</h3></legend
+    <p> Nome
+        <input type="text" required name="name" br> 
+    </p>
+    <p>
+    <span>Sexo</span>
+    <input type="radio" id="sexo" name="sexo"/> Masculino
+    <input type="radio" name="sexo" /> Feminino
+    </p>
+    <p>
+        Idade: <input type="number" name="quantidade" min="1" max="100">    
+    </p>
+    <p> Endereço
+        <input type="text" required name="name" placeholder="Digite o endereço"br> 
+    </p>
+    <p> Cidade
+        <input type="text" required name="name" placeholder="Digite a cidade" br> 
+    </p>
+
+    <p> Estado 
+    <select name="Estado">
+        <option value="">UF</option>
+        <option value="PA">Pará</option>
+        <option value="MA">Maranhão</option>
+        <option value="RJ">Rio de Janeiro</option>
+    </select>
+</p>
+    <p> CEP
+        <input type="text" required name="name" placeholder="xxxxx-xxx" br> 
+    </p>
+    <p> Tel.Res
+        <input type="tel" name="usertel" placeholder="(99)9999-9999" br> 
+    </p>
+    <p> Tel.Cel
+        <input type="tel" name="usertel" placeholder="(00)0000-0000" br> 
+    </p>
+    <p> Email
+        <input type="e-mail" name="email" placeholder="Digite o endereço de email" br> 
+    </p>
+
+   </fieldset>
+    <form>
+        <input type="button" value="Incluir">
+      </form>
+      <script>
+        function msg() {
+          alert("Usuário incluído com sucesso!!!");
+        }
+        </script>  
